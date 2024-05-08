@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://pher.gd" type="Script" id=1]
+[ext_resource path="res://pher.png" type="Texture" id=2]
+
+[node name="pher" type="Sprite"]
+self_modulate = Color( 0, 0, 1, 1 )
+position = Vector2( 32, 24 )
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 2 )
+script = ExtResource( 1 )
